@@ -1,7 +1,7 @@
 import hashlib
 
 
-def file_hash(full_path, hash_type):
+def get_hash(full_path, hash_type):
     """
     Returns hash of file identified by full_path.
     Possible hash_types: 'md5', 'sha1', 'sha256' (passed as string)
